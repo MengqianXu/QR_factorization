@@ -90,9 +90,8 @@ This project implements and compares sequential and parallel versions of Classic
 | `CGS.py`          | Contains the sequential and parallel implementations of Classical Gram-Schmidt.                           |
 | `MGS.py`          | Contains the sequential and parallel implementations of Modified Gram-Schmidt.                            |
 | `TSQR.py`         | Implements the TSQR algorithm for distributed QR factorization.                                           |
-| `generate_matrix.py` | Functions for generating random, parametric, and Hilbert matrices.                                      |
+| `generate_matrix.py` | Functions for generating parametric matrices.                                                          |
 | `metrics.py`      | Provides utility functions for computing metrics, distributing matrices, and plotting results.            |
-| `test.py`         | Additional tests for verifying performance and correctness.                                               |
 | `loss_cond.png`   | Plot showing loss of orthogonality and condition numbers for different algorithms.                        |
 | `Time.png`        | Plot comparing execution times of sequential and parallel CGS/MGS.                                        |
 
