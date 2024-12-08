@@ -13,10 +13,7 @@ This project implements and compares sequential and parallel versions of Classic
 
 2. **Matrix Generation**:
    - Random matrix generation.
-   - Parametric matrix based on the function:
-     \[
-     f(x, \mu) = \frac{\sin(10(\mu + x))}{\cos(100(\mu - x)) + 1.1}
-     \]
+   - Parametric matrix based on the function:  $f(x, \mu) = \frac{\sin(10(\mu + x))}{\cos(100(\mu - x)) + 1.1}$
    - Hilbert matrix for challenging numerical stability tests.
 
 3. **Metrics Evaluated**:
